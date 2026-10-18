@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#05061a">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Projects | Portfolio</title>
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html#home"><span>&lt;Dev</span>Portfolio <span>/&gt;</span></a>
+        <nav aria-label="Main navigation">
+            <a href="index.html#home">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#skills">Skills</a>
+            <a class="active" href="projects.html" aria-current="page">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <a class="header-social" href="index.html#contact" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a class="resume-button" href="index.html#contact">Resume <i class="fa-solid fa-download"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects-section section-shell project-catalog" id="all-projects">
+            <div class="projects-heading">
+                <div>
+                    <div class="section-kicker"><span></span> PROJECT ARCHIVE</div>
+                    <h1 class="section-heading">All Projects</h1>
+                    <p>A collection of applications and web projects I have been building.</p>
+                </div>
+                <a class="text-button" href="index.html#projects"><i class="fa-solid fa-arrow-left"></i> Back to Portfolio</a>
+            </div>
+
+            <!-- Add new cards here and replace the example demo and GitHub links. -->
+            <div class="project-grid">
+                <article class="project-card" id="vd-downloader">
+                    <div class="project-preview">
+                        <img src="access/vd-downloader.png" alt="VD Downloader project screenshot" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Application</span>
+                        <h2>VD Downloader</h2>
+                        <p>A powerful media downloader with format selection, download management and FFmpeg audio/video merging.</p>
+                    </div>
+                    <div class="project-links project-actions">
+                        <a class="project-open" href="https://your-username.github.io/vd-downloader/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Project</a>
+                        <span class="project-source-label"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</span>
+                    </div>
+                </article>
+
+                <article class="project-card" id="weather-forecast">
+                    <div class="project-preview">
+                        <img src="access/weather.png" alt="Weather Forecast Website project screenshot" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Web Project</span>
+                        <h2>Weather Forecast Website</h2>
+                        <p>A modern weather website with search, forecasts, weather maps and daily tips using the Open-Meteo API.</p>
+                    </div>
+                    <div class="project-links project-actions">
+                        <a class="project-open" href="https://your-username.github.io/weather-forecast-website/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Project</a>
+                        <span class="project-source-label"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</span>
+                    </div>
+                </article>
+
+                <article class="project-card" id="document-scanner">
+                    <div class="project-preview">
+                        <img src="access/document-scanner.png" alt="Document Scanner project screenshot" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Application</span>
+                        <h2>Document Scanner</h2>
+                        <p>A document scanning application with camera capture, review and document handling features.</p>
+                    </div>
+                    <div class="project-links project-actions">
+                        <a class="project-open" href="https://your-username.github.io/document-scanner/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Project</a>
+                        <span class="project-source-label"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 Your Name. Built with <i class="fa-solid fa-heart"></i> using HTML, CSS &amp; JavaScript.</p>
+        <a href="#all-projects">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+    </footer>
+</body>
+</html>

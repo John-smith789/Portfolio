@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#05061a">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio | Software Developer</title>
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="#home"><span>&lt;Dev</span>Portfolio <span>/&gt;</span></a>
+        <nav aria-label="Main navigation">
+            <a class="active" href="#home" aria-current="page">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <a class="header-social" href="#contact" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a class="resume-button" href="#contact">Resume <i class="fa-solid fa-download"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="top-section" id="home">
+            <div class="hero-section">
+                <div class="text-line">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    <span>WELCOME TO MY PORTFOLIO</span>
+                </div>
+                <h1>Hello, I'm<br><span>A Developer</span></h1>
+                <h2>IT Student &amp; Aspiring Software Developer</h2>
+                <p>I enjoy building useful software applications with Python, Kivy and modern web technologies. Explore my work, skills and projects below.</p>
+                <div class="button-section">
+                    <a class="button button-primary" href="#projects"><i class="fa-solid fa-code"></i> View My Projects</a>
+                    <a class="button button-outline" href="#contact"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+                </div>
+                <div class="social-links" aria-label="Social links">
+                    <a href="#contact" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#contact" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#contact" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#contact" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="photo-section">
+                <img src="access/image_1.png" alt="Illustration of a developer at work">
+            </div>
+        </section>
+
+        <section class="about-section section-shell" id="about">
+            <div class="about-image">
+                <img src="access/image_2.png" alt="Laptop displaying code beside programming books">
+            </div>
+            <div class="about-copy">
+                <div class="section-kicker"><span></span> GET TO KNOW ME</div>
+                <h2 class="section-heading">About Me</h2>
+                <p>I am an IT student, passionate about software development, problem solving and creating practical solutions. I enjoy learning new technologies and turning ideas into real-world applications. My goal is to become a skilled developer and contribute to innovative projects in the tech industry.</p>
+                <a class="text-button" href="#contact">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="about-facts">
+                <div class="fact">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <div><h3>Education</h3><p>B.Sc. in Information Technology<br>(2nd Year)</p></div>
+                </div>
+                <div class="fact">
+                    <i class="fa-solid fa-code"></i>
+                    <div><h3>Focus</h3><p>Software Development,<br>App Design &amp; Problem Solving</p></div>
+                </div>
+                <div class="fact">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div><h3>Location</h3><p>Your City, Country</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section section-shell" id="skills">
+            <div class="section-title">
+                <div class="section-kicker"><span></span> MY SKILLS</div>
+                <h2 class="section-heading">Technical Skills</h2>
+                <p>A combination of programming languages, frameworks and tools.</p>
+            </div>
+            <div class="skill-grid">
+                <article class="skill-card"><i class="fa-brands fa-python"></i><h3>Python</h3><p>Application Development</p></article>
+                <article class="skill-card"><i class="fa-solid fa-layer-group"></i><h3>Kivy</h3><p>Cross-Platform UI</p></article>
+                <article class="skill-card"><i class="fa-brands fa-android"></i><h3>Kotlin</h3><p>Android Development</p></article>
+                <article class="skill-card"><i class="fa-brands fa-java"></i><h3>Java</h3><p>Programming Basics</p></article>
+                <article class="skill-card"><i class="fa-solid fa-microchip"></i><h3>C / C++</h3><p>Performance &amp; Algorithms</p></article>
+                <article class="skill-card"><i class="fa-brands fa-html5"></i><h3>HTML / CSS / JS</h3><p>Web Development</p></article>
+            </div>
+        </section>
+
+        <section class="projects-section section-shell" id="projects">
+            <div class="projects-heading">
+                <div>
+                    <div class="section-kicker"><span></span> MY PROJECTS</div>
+                    <h2 class="section-heading">Featured Projects</h2>
+                    <p>A selection of my recent projects. Click to explore the source code.</p>
+                </div>
+                <a class="text-button" href="projects.html">View All Projects <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-preview">
+                        <img src="access/vd-downloader.png" alt="VD Downloader project screenshot" loading="lazy">
+                    </div>
+                    <div class="project-info"><span class="project-tag">Application</span><h3>VD Downloader</h3><p>A powerful media downloader with format selection, download management and FFmpeg audio/video merging.</p></div>
+                    <div class="project-links">
+                        <a class="project-open" href="https://john-smith789.github.io/vd-downloader/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Project</a>
+                        <span class="project-source-label"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</span>                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-preview">
+                        <img src="access/weather.png" alt="Weather Forecast Website project screenshot" loading="lazy">
+                    </div>
+                    <div class="project-info"><span class="project-tag">Web Project</span><h3>Weather Forecast Website</h3><p>A modern weather website with search, forecasts, weather maps and daily tips using the Open-Meteo API.</p></div>
+                    <div class="project-links">
+                        <a class="project-open" href="https://john-smith789.github.io/weather_forecast_website/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Project</a>
+                        <span class="project-source-label"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</span>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-preview">
+                        <img src="access/document-scanner.png" alt="Document Scanner project screenshot" loading="lazy">
+                    </div>
+                    <div class="project-info"><span class="project-tag">Application</span><h3>Document Scanner</h3><p>A document scanning application with camera capture, review and document handling features.</p></div>
+                    <div class="project-links">
+                        <a class="project-open" href="https://john-smith789.github.io/document-scanner/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Project</a>
+                        <span class="project-source-label"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-section section-shell" id="contact">
+            <div class="contact-copy">
+                <div class="section-kicker"><span></span> LET'S CONNECT</div>
+                <h2 class="section-heading">Contact Me</h2>
+                <p>Have a project idea, collaboration opportunity, or just want to say hi? Feel free to reach out!</p>
+                <div class="contact-buttons">
+                    <a class="button button-primary" href="mailto:your.email@example.com"><i class="fa-regular fa-envelope"></i> Send Me an Email</a>
+                    <a class="button button-outline" href="#contact"><i class="fa-brands fa-github"></i> Visit My GitHub</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-detail"><i class="fa-regular fa-envelope"></i><span>your.email@example.com</span></div>
+                <div class="contact-detail"><i class="fa-solid fa-location-dot"></i><span>Your City, Country</span></div>
+                <i class="fa-solid fa-paper-plane contact-plane" aria-hidden="true"></i>
+                <svg class="flight-path" viewBox="0 0 400 150" preserveAspectRatio="none" aria-hidden="true">
+                    <path d="M 12 132 C 72 145 95 76 143 111 S 215 150 250 112 S 314 91 367 29" />
+                </svg>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 Your Name. Built with <i class="fa-solid fa-heart"></i> using HTML, CSS &amp; JavaScript.</p>
+        <a href="#home">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
